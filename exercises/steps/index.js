@@ -17,6 +17,37 @@
 //       '### '
 //       '####'
 
-function steps(n) {}
+function steps(n) {
+
+}
+
+// Solution #1
+// let step = 1;
+// while (step < n + 1) {
+//   let pounds = '';
+//   let spaces = '';
+//   for (let i = 0; i < step; i++) {
+//     pounds += '#';
+//   }
+//   for (let i = 0; i < n - step; i++) {
+//     spaces += ' ';
+//   }
+//   console.log(pounds + spaces);
+//   step++;
+// }
+
+// Solution #2
+// for (let row = 0; row < n; row++) {
+//   let stair = '';
+//   for (let column = 0; column < n; column++) {
+//     if (column <= row) {
+//       stair += '#';
+//     } else {
+//       stair += ' ';
+//     }
+//   }
+//   console.log(stair);
+// }
+
 
 module.exports = steps;
